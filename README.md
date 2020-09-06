@@ -1,5 +1,6 @@
 # blender_lithoplane
-Blender python script to generate lithoplane STL files for 3D printing 
+Blender python script to automatically generate lithoplane STL files for 3D Printing.
+Tested on Creatlity Ender 3 printer in PLA 
 ## Requirements
 1. Blender (2.79 tested, probably works on 2.8.x)
 2. Blender added to PATH environment variable
@@ -21,8 +22,8 @@ Blender python script to generate lithoplane STL files for 3D printing
 ## Variables
 | Variable | Example | Description |
 | --- | ---: | --- |
-| imagePath | "C:\\Path\\to\\input\\image\\jpeg\\png\\jpg\\maybe\\others\\accepted\\fileName.jpg" | full path to input image, \\ for delimiting directories |
-| stlOutputPath | "C:\\Path\\to\\output\\stl\\file.stl" | full path to output stl, \\ for delimiting directories, ensure .stl file ending |
+| imagePath | "C:\\Path\\to\\input\\image\\fileName.jpg" | full path to input image, \\ for delimiting directories, jpg, jpeg, png |
+| stlOutputPath | "C:\\Path\\to\\output\\stl\\fileName.stl" | full path to output stl, \\ for delimiting directories, ensure .stl file ending |
 | printImageWidth | 60 | mm width of the image path of lithoplane (height determined by the aspect ratio of input image) |
 | printBorderWidth | 3 | mm width of border added beyond image part of mesh, 0 invalid |
 | fileWidth | 1200 | width in pixels of source image |
