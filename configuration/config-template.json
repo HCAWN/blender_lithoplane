@@ -1,0 +1,15 @@
+{
+    "imagePath" : "C:\\Path\\to\\input\\image\\jpeg\\png\\jpg\\maybe\\others\\accepted\\fileName.jpg",
+    "stlOutputPath" : "C:\\Path\\to\\output\\stl\\file.stl",
+
+    "printImageWidth" : 60            ,
+    "printBorderWidth" : 3            ,
+
+    "fileWidth" : 1200                ,
+    "fileHeight" : 1600               ,
+    "pixelsPerGrid" : 2               ,
+
+    "minLithoplaneThickness" : 0.5    ,
+    "maxLithoplaneThickness" : 2.5    ,
+    "frameThickness" : 2.5
+}
